@@ -35,13 +35,6 @@ public class Main
         {
             resultado = "Reprovado";
         }
-        System.out.println("---------------------------");
-        System.out.println("Nome do aluno 1: " + nome);
-        System.out.println("E-mail do aluno 1: " + email);
-        String mediaf = String.format("%.1f", media);
-        System.out.println("O resultado do aluno 1 foi: " + resultado + " media: " + mediaf);
-        System.out.println("---------------------------");
-
 
         //codigo 2
         System.out.println("Insira o nome do aluno 2");
@@ -66,12 +59,7 @@ public class Main
         {
             resultado2 = "Reprovado";
         }
-        System.out.println("---------------------------");
-        System.out.println("Nome do aluno 2: " + nome2);
-        System.out.println("E-mail do aluno 2: " + email2);
-        String mediaf2 = String.format("%.1f", media2);
-        System.out.println("O resultado do aluno 2 foi: " + resultado2 + " media: " + mediaf2);
-        System.out.println("---------------------------");
+
 
 
         //codigo 3
@@ -97,6 +85,18 @@ public class Main
         {
             resultado3 = "Reprovado";
         }
+
+        System.out.println("---------------------------");
+        System.out.println("Nome do aluno 1: " + nome);
+        System.out.println("E-mail do aluno 1: " + email);
+        String mediaf = String.format("%.1f", media);
+        System.out.println("O resultado do aluno 1 foi: " + resultado + " media: " + mediaf);
+
+        System.out.println("---------------------------");
+        System.out.println("Nome do aluno 2: " + nome2);
+        System.out.println("E-mail do aluno 2: " + email2);
+        String mediaf2 = String.format("%.1f", media2);
+        System.out.println("O resultado do aluno 2 foi: " + resultado2 + " media: " + mediaf2);
 
         System.out.println("---------------------------");
         System.out.println("Nome do aluno 3: " + nome3);
